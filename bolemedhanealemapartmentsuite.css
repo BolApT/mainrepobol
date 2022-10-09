@@ -1,0 +1,441 @@
+
+/* try size 1750 width by 1125 height for pics, rendered as 480 px by 538 px*/
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+@font-face { font-family: Akira Expanded Super Bold; src: url('Akira Expanded Demo.otf'); } 
+
+h1{
+   font-family: 'Akira Expanded Super Bold';
+
+} 
+
+
+body{
+
+    background: #000;
+    
+
+}
+
+
+
+#intro{
+
+background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ecd9e1, #b256ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 50px; 
+
+font-family: 'Akira Expanded Super Bold';
+color:#fff;
+
+margin-bottom: 70px;
+} 
+
+
+#logo{
+
+    width: 50px;
+    height: auto;
+    border-radius: 61px;
+    margin-top:-15px;
+}
+
+
+#latestwork{
+
+    margin-top: 154px;
+    color: fff;
+    font-size: 1rem;
+    padding: 15px;
+
+}
+
+
+
+h1{
+text-align: left;
+font-weight: normal;
+font-size: 1.3rem;
+color: #fff; 
+padding: 15px;
+}
+
+
+h2{
+    text-align: left;
+    font-weight: normal;
+    font-family: 'Akira Expanded Super Bold',sans-serif;
+     padding: 7px;
+    }
+
+
+
+#jobtitle{
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+
+
+  .flex-item-left{
+    flex: 33.33%;
+    /*background: red;*/
+    padding: 10px;
+  }
+
+  .flex-item-center{
+
+    flex: 33.33%;
+    /*background: red;*/
+    padding: 10px;
+  }
+
+  .flex-item-right{
+    flex: 33.33%;
+    /*background: blue;*/
+    padding: 10px;
+  } 
+
+
+  
+
+  img{
+      width:100%;
+      height:71%;
+      background-size: cover;
+      margin-bottom: 7px;
+  }
+
+
+  a {
+    color: #fff;
+    font-family:'Poppins', sans-serif;
+    
+
+    font-family: 'Akira Expanded Super Bold',sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none; /* no underline */
+
+  }
+
+  .pDescrip{
+    color:#fff;
+    font-family:'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 7px;
+  }
+
+  #btnLink{
+
+    font: bold 14px Arial;
+  text-decoration: none;
+  background-color: #050505;
+  color: #fff;
+  padding: 2px 6px 2px 6px;
+  /*border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;*/
+
+  margin-top:7px;
+  }
+
+
+
+ #contactBtnLink{
+
+  float: right;
+  font: bold 14px Poppins, Arial;
+  text-decoration: none;
+   padding: 4px 8px 4px 8px;
+   border-radius: 10px;
+   border: 1px solid #000; 
+
+   margin-top: -42px;
+
+  }
+
+
+
+
+  /*below is for separate project pgs */
+
+
+  .imgs{
+
+    margin: 0 auto;
+    text-align:center; 
+
+
+  }
+
+  .imgProj{
+    max-width: 100%;
+    height: 71%;
+
+    background-size: cover;
+    margin-bottom: 7px
+
+
+  } 
+
+
+
+
+
+  #projectLabelH2{
+
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  } 
+
+
+  #mainProjdiv{
+
+   padding: 20px;
+
+  } 
+
+
+
+  #projDetails{
+
+    margin: 73px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+   #artleisureBanner{
+
+
+     width: 100%;
+     height: auto;
+     margin-top: -70px;
+
+    }
+
+
+
+
+#introScreen{
+
+
+
+       background: rgb(136 142 119 / 31%);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ecd9e1, #3d5627);   /* Chrome 10-25, Safari 5.1-6 */
+background:linear-gradient(to right, #ecd9e1, #3d5627); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 25px; 
+
+font-family: 'Akira Expanded Super Bold';
+color:#fff; 
+
+
+margin-bottom:0;
+
+
+
+}
+
+
+
+
+#introScreenBeauty{
+
+
+
+    background: linear-gradient(to right, #ecd9e1, #3d5627);
+    padding: 50px;
+    font-family: 'Akira Expanded Super Bold';
+    color: #fff;
+    margin-bottom: 70px;
+
+
+}
+
+
+#contactBtnLinkScreenBeauty {
+
+  float: right;
+    font: bold 14px Poppins, Arial;
+    text-decoration: none;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    /* margin-top: -42px;*/
+
+}
+
+
+.bigScreenPics{
+
+
+width:100%;
+
+height: auto;
+
+margin-bottom: 7rem;
+
+
+}
+
+
+.lilScreenPics{
+
+width:100%;
+
+height: 85%;
+
+} 
+
+
+
+.lilSocialPics{
+
+width:100%;
+
+height: auto;
+
+padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+#socialMediaBanner{
+
+
+     width: 100%;
+     height: auto;
+     padding: 50px;
+
+     margin-top: -88px;
+
+    } 
+
+
+
+
+.centered{
+
+
+margin: 0 auto;
+text-align: center;
+
+
+} 
+
+
+
+.centeredSocial{
+
+
+    width: 50%;
+    height: auto%;
+    height: auto;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+
+
+
+#projExplanation{
+
+  padding: 15px;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+
+    margin-top: 45px;
+}
+
+
+
+
+
+#projExplanationArt{
+
+  padding: 15px;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+
+    margin-top: 45px;
+}
+
+
+#footer{
+
+
+padding: 39px;
+background: purple;
+background: linear-gradient(to right, #ecd9e1, #b256ed);
+background: -webkit-linear-gradient(to right, #ecd9e1, #b256ed);   /* Chrome 10-25, Safari 5.1-6 */
+
+margin-top:165px;
+
+
+
+}
+
+
+
+#footerScreen{
+
+padding: 39px;
+margin-top:165px;
+
+
+ background: rgb(136 142 119 / 31%);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ecd9e1, #3d5627);   /* Chrome 10-25, Safari 5.1-6 */
+background:linear-gradient(to right, #ecd9e1, #3d5627); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+
+@media(max-width: 800px){
+
+    .flex-item-left, .flex-item-right{
+        flex:100%;
+        margin-bottom: 20px;
+    }
+  } 
